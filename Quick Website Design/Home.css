@@ -2420,48 +2420,4 @@
   .u-section-12 .u-text-7 {
     font-size: 2.25rem;
   }
-}.u-section-13 .u-sheet-1 {
-  min-height: 501px;
-}
-
-.u-section-13 .u-text-1 {
-  font-weight: 700;
-  margin: 59px auto 0;
-}
-
-.u-section-13 .u-form-1 {
-  width: 570px;
-  margin: 29px auto 59px;
-}
-
-.u-section-13 .u-form-group-1 {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.u-section-13 .u-form-group-2 {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.u-section-13 .u-form-group-3 {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.u-section-13 .u-form-group-4 {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (max-width: 767px) {
-  .u-section-13 .u-form-1 {
-    width: 540px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-13 .u-form-1 {
-    width: 340px;
-  }
 }
