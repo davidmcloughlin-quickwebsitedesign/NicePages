@@ -14705,6 +14705,7 @@ section.u-image,
 .u-video-poster:after {
   box-sizing: initial;
 }
+.pswp .embed-responsive,
 .u-video .embed-responsive {
   width: 100%;
   height: 100%;
