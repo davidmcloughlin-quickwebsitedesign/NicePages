@@ -531,9 +531,10 @@
 }
 
 .u-section-4 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
   min-height: 310px;
   grid-gap: 10px 10px;
+  grid-auto-columns: calc(25% - 7.5px);
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -589,6 +590,25 @@
   margin: 20px 0 0;
 }
 
+.u-section-4 .u-list-item-4 {
+  background-image: none;
+}
+
+.u-section-4 .u-container-layout-4 {
+  padding: 20px;
+}
+
+.u-section-4 .u-text-8 {
+  font-weight: 500;
+  margin: 0 auto 0 0;
+}
+
+.u-section-4 .u-text-9 {
+  font-size: 1.25rem;
+  line-height: 2;
+  margin: 20px 0 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
     min-height: 642px;
@@ -599,6 +619,7 @@
   }
 
   .u-section-4 .u-repeater-1 {
+    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
     min-height: 256px;
   }
 
@@ -628,6 +649,15 @@
   .u-section-4 .u-text-7 {
     font-size: 1.125rem;
   }
+
+  .u-section-4 .u-container-layout-4 {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .u-section-4 .u-text-9 {
+    font-size: 1.125rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -641,7 +671,8 @@
 
   .u-section-4 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-    min-height: 588px;
+    min-height: 784px;
+    grid-auto-columns: calc(50% - 5px);
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -655,6 +686,11 @@
   }
 
   .u-section-4 .u-container-layout-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-4 .u-container-layout-4 {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -673,6 +709,10 @@
     margin-top: 55px;
   }
 
+  .u-section-4 .u-repeater-1 {
+    grid-auto-columns: calc(100% - 0px);
+  }
+
   .u-section-4 .u-container-layout-1 {
     padding-left: 15px;
     padding-right: 15px;
@@ -684,6 +724,11 @@
   }
 
   .u-section-4 .u-container-layout-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .u-section-4 .u-container-layout-4 {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -700,6 +745,7 @@
 
   .u-section-4 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: 100%;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -713,6 +759,11 @@
   }
 
   .u-section-4 .u-container-layout-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-4 .u-container-layout-4 {
     padding-left: 30px;
     padding-right: 30px;
   }
